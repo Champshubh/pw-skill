@@ -1,0 +1,65 @@
+body {
+    background-image: url('bg.png');
+    background-size: cover;
+  }
+  nav img {
+    height: 40px; 
+    margin-right: 20px
+  }
+  
+  nav {
+    background-color: black;
+    padding: 12px;
+    }
+  
+    nav, .navigation{
+    display: flex;
+    }
+  
+  .navigation{
+    padding-left: 30px;
+    padding-top: 15px ;
+    font-size: 12px;
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+  
+  }
+  #apps{
+    border-left: 2px white dotted;
+  }
+  
+  .btn{
+  margin-left: 210px;  background-color: rgb(197, 43, 197);
+    border-radius: 7px;
+    color: white;
+    padding: 10px 20px; 
+  }
+  
+  .large{
+    font-size: 75px;
+    font-weight: bolder;
+  }
+  .container {
+    color: white;
+    margin-top: 100px;
+    text-align: center; 
+  }
+  
+  .large, .small {
+    margin: 0 0; 
+  }
+  .small{
+    font-size: 20px;
+  }
+  
+  .but{
+    display: block;
+    background-color: rgb(197, 43, 197);
+    color: white;
+    padding : 10px 20px;
+    border-radius: 7px;
+    margin: 20px auto;  
+    border: none;
+  }
+  
